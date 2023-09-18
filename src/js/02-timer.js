@@ -78,11 +78,12 @@ const options = {
       Notiflix.Notify.failure('Please choose a date in the future');
     } else {
       button.disabled = false;
+      button.style.backgroundColor = 'red';
     }
   },
 };
 
-button.style.backgroundColor = 'green';
+button.style.backgroundColor = 'white';
 button.style.borderRadius = '10px';
 container.style.display = 'flex';
 container.style.flexDirection = 'row';
