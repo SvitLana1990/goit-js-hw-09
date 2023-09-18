@@ -52,6 +52,8 @@ function onButtonClick() {
       differenceTime -= 1000;
       if (differenceTime <= 0) {
         clearInterval(timerInterval);
+        button.disabled = true;
+        button.style.backgroundColor = 'white';
       } else {
         updateTimer(differenceTime);
       }
