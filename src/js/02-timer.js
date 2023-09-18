@@ -59,7 +59,7 @@ function onButtonClick() {
   }
 }
 
-input.addEventListener('click', () => {
+input.addEventListener('focus', () => {
   flatpickr('#datetime-picker', options);
 });
 
